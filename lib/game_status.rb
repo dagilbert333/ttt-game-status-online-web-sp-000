@@ -62,7 +62,7 @@ end
 def winner(board)
   winner = nil
   if won?(board)
-    winner = 
+    board.include
   else
     false
 end
