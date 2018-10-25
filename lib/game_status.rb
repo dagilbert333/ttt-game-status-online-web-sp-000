@@ -70,7 +70,5 @@ def winner(board)
   end
   if winner != nil
     winner
-  else
-    false
   end
 end
