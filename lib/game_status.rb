@@ -64,11 +64,9 @@ def winner(board)
   if won?(board)
     board.include?("X")
     winner = "X"
-  elsif won?(board)
+  else won?(board)
     board.include?("O")
     winner = "O"
-  else
-    winner
   end
   winner
 end
