@@ -70,6 +70,6 @@ def winner(board)
     winner = "O"
     winner
   else
-    false
+    winner
   end
 end
