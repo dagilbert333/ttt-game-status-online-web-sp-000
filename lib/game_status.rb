@@ -62,7 +62,14 @@ end
 def winner(board)
   winner = nil
   if won?(board)
-    board.include?
+    board.include?("X")
+    winner = "X"
+    winner
+  elsif won?(board)
+    board.include?("O")
+    winner = "O"
+    winner
   else
     false
+  end
 end
