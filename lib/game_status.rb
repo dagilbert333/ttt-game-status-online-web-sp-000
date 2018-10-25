@@ -35,7 +35,7 @@ end
   
 def full?(board)
   board.each do |index|
-    if position_taken?(board, index)
+    if position_taken?(board, index) == "X" || "O"
       true
     else
       false
